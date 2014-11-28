@@ -24,7 +24,7 @@ Put the following in your application's `Gemfile`:
 
     group :development do
       gem 'capistrano', '~> 3.1'
-      gem 'capistrano-monit-recipes'
+      gem 'capistrano-monit-recipes', github: 'louishouette/capistrano-monit-recipes'
     end
 
 Then:
